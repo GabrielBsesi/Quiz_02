@@ -1,3 +1,25 @@
 <resources>
-    <string name="app_name">Quiz_02</string>
+    <string name="app_name">Quiz</string>
+    <string name="quiz_text_start">QUIZ</string>
+    <string name="button_next">Next</string>
+    <string name="button_start">Iniciar</string>
+    <string name="todo">TODO</string>
+    <string name="test">test</string>
+
+
+    <string name="tvRespostasCorretas">Acertou: 0</string>
+    <string name="acertou_contador">Acertou: 0</string>
+
+    <string name="quest_geral_back">Voltar</string>
+    <string name="quest_geral_next">Próximo</string>
+
+    <string name="quest1_per">pergunda aquii1</string>
+    <string name="quest2_per">pergunda aquii2</string>
+
+
+
+    <string name="quest1_button1">button1</string>
+    <string name="quest1_button2">button2</string>
+    <string name="quest1_button3">button3</string>
+    <string name="quest1_button4">button4</string>
 </resources>
