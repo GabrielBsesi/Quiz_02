@@ -69,6 +69,17 @@ public class QuizDBUtil {
         db.close();
     }
 
+    public static void menosContador(Context context) {
+        QuizDBHelper dbHelper = new QuizDBHelper(context);
+        SQLiteDatabase db = dbHelper.getWritableDatabase();
+
+        // Diminui o valor do contador em 1 no banco de dados
+        String query = "UPDATE " + TABLE_NAME + " SET contador = contador - 1";
+        db.execSQL(query);
+
+        db.close();
+    }
+
 
 }
 

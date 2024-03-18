@@ -47,13 +47,16 @@
         android:textSize="20sp"
         tools:ignore="RtlHardcoded,TextSizeCheck,VisualLintButtonSize" />
 
-    <Button
-        android:id="@+id/reset_Button"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/tvRespostasCorretas"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:onClick="resetContador"
-        android:text="Reset Contador" />
+        android:text="@string/tvRespostasCorretas"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_column="1"
+        app:layout_row="0"
+        tools:ignore="TextSizeCheck" />
 
 
 </LinearLayout>

@@ -30,7 +30,7 @@ public class Quest1Activity extends AppCompatActivity {
 
         // Exibe o contador em um TextView
         tvRespostasCorretas = findViewById(R.id.tvRespostasCorretas);
-        tvRespostasCorretas.setText("Acertou: " + contador);
+        tvRespostasCorretas.setText("Acertou: " + contador + "/10");
 
 
         // Encontrando botões pelo ID
@@ -107,7 +107,7 @@ public class Quest1Activity extends AppCompatActivity {
             int contadorS = QuizDBUtil.recuperarContador(getApplicationContext());
 
             // Atualizar o contador na tela
-            tvRespostasCorretas.setText("Acertou: " + contadorS);
+            tvRespostasCorretas.setText("Acertou: " + contadorS + "/10");
         } else {
             // Errado: botão vermelho
             button.setBackgroundColor(Color.RED);
@@ -138,6 +138,8 @@ public class Quest1Activity extends AppCompatActivity {
     private void voltarTela() {
         Intent intent = new Intent(this, MainActivity.class);
         //intent.putExtra("respostasCorretas", respostasCorretas);
+        QuizDBUtil.menosContador(getApplicationContext());
+
         startActivity(intent);
     }
 
