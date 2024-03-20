@@ -41,11 +41,11 @@
     </androidx.gridlayout.widget.GridLayout>
 
     <TextView
-        android:id="@+id/quest1per"
+        android:id="@+id/quest2per"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingStart="10dp"
-        android:text="@string/quest1_per"
+        android:text="@string/quest7_per"
         android:textAlignment="viewStart"
         android:textSize="24sp" />
 
@@ -73,7 +73,7 @@
             android:id="@+id/button2"
             android:layout_width="148dp"
             android:layout_height="61dp"
-            android:text="@string/Placamae"
+            android:text="@string/Placadesom"
             app:layout_column="2"
             app:layout_row="0" />
 
@@ -81,7 +81,7 @@
             android:id="@+id/button3"
             android:layout_width="150dp"
             android:layout_height="60dp"
-            android:text="@string/CPU"
+            android:text="@string/Placadevídeo"
             app:layout_column="0"
             app:layout_row="2" />
 
@@ -89,10 +89,9 @@
             android:id="@+id/button4"
             android:layout_width="150dp"
             android:layout_height="60dp"
-            android:text="@string/Disco"
+            android:text="@string/RAM"
             app:layout_column="2"
             app:layout_row="2" />
-
     </androidx.gridlayout.widget.GridLayout>
 
     <androidx.gridlayout.widget.GridLayout
@@ -114,7 +113,6 @@
             android:text="@string/quest_geral_next"
             app:layout_column="2"
             app:layout_row="2" />
-
     </androidx.gridlayout.widget.GridLayout>
 
 </LinearLayout>

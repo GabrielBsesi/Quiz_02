@@ -15,7 +15,7 @@ public class Quest1Activity extends AppCompatActivity {
 
     private Button button1, button2, button3, button4, backButton, nextButton;
     private TextView tvRespostasCorretas;
-    private int respostaCorreta = 1; // Número do botão correto
+    private int respostaCorreta = 3; // Número do botão correto
 
     private int respostasCorretas = 0;
 
@@ -114,16 +114,16 @@ public class Quest1Activity extends AppCompatActivity {
             // Altera a cor do botão correto para verde
             switch (respostaCorreta) {
                 case 1:
-                    button1.setBackgroundColor(Color.GREEN);
+                    //button1.setBackgroundColor(Color.GREEN);
                     break;
                 case 2:
-                    button2.setBackgroundColor(Color.GREEN);
+                    //button2.setBackgroundColor(Color.GREEN);
                     break;
                 case 3:
-                    button3.setBackgroundColor(Color.GREEN);
+                    //button3.setBackgroundColor(Color.GREEN);
                     break;
                 case 4:
-                    button4.setBackgroundColor(Color.GREEN);
+                    //button4.setBackgroundColor(Color.GREEN);
                     break;
             }
         }

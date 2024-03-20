@@ -13,13 +13,25 @@
     <string name="quest_geral_back">Voltar</string>
     <string name="quest_geral_next">Próximo</string>
 
-    <string name="quest1_per">pergunda aquii1</string>
-    <string name="quest2_per">pergunda aquii2</string>
+    <string name="quest1_per">1) Qual componente é responsável por processar os dados em um computador?</string>
+    <string name="quest2_per">2) Qual componente armazena o sistema operacional e os programas instalados?</string>
+    <string name="quest3_per">3) Qual componente é responsável por conectar os periféricos ao computador?</string>
+    <string name="quest4_per">4) Qual componente é responsável por gerar a imagem que aparece no monitor?</string>
+    <string name="quest5_per">5) Qual componente é responsável por amplificar e reproduzir o som do computador?</string>
+    <string name="quest6_per">6) Qual componente é responsável por armazenar dados temporariamente, para acesso rápido?</string>
+    <string name="quest7_per">7) Qual tipo de memória é mais rápida, mas volátil, perdendo os dados quando o computador é desligado?</string>
+    <string name="quest8_per">8) Qual tipo de memória é mais lenta, mas permanente, não perdendo os dados quando o computador é desligado?</string>
+    <string name="quest9_per">9) Qual componente é responsável por conectar o computador à internet?</string>
+    <string name="quest10_per">10) Qual componente é responsável por ler e gravar dados em CDs, DVDs ou Blu-rays?</string>
 
 
 
-    <string name="quest1_button1">button1</string>
-    <string name="quest1_button2">button2</string>
-    <string name="quest1_button3">button3</string>
-    <string name="quest1_button4">button4</string>
+    <string name="RAM">Memória RAM</string>
+    <string name="Placamae">Placa-mãe</string>
+    <string name="CPU">CPU</string>
+    <string name="Disco">Disco rígido</string>
+    <string name="Placadevídeo">Placa de vídeo</string>
+    <string name="Placadesom">Placa de som</string>
+    <string name="Placaderede">Placa de rede</string>
+    <string name="Leitoroptico">Leitor óptico</string>
 </resources>

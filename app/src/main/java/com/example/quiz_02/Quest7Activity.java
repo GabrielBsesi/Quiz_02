@@ -11,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.quiz_02.db.QuizDBUtil;
 
-public class Quest2Activity extends AppCompatActivity {
+public class Quest7Activity extends AppCompatActivity {
 
     private Button button1, button2, button3, button4, backButton, nextButton;
     private TextView tvRespostasCorretas;
@@ -22,7 +22,7 @@ public class Quest2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_quest2);
+        setContentView(R.layout.activity_quest7);
 
 
         int contador = QuizDBUtil.recuperarContador(getApplicationContext());
@@ -143,7 +143,7 @@ public class Quest2Activity extends AppCompatActivity {
     }
 
     private void ProximaTela() {
-        Intent intent = new Intent(this, Quest3Activity.class);
+        Intent intent = new Intent(this, MainActivity.class);
         //intent.putExtra("respostasCorretas", respostasCorretas);
         startActivity(intent);
     }
