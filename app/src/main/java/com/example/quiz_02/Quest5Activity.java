@@ -15,7 +15,7 @@ public class Quest5Activity extends AppCompatActivity {
 
     private Button button1, button2, button3, button4, backButton, nextButton;
     private TextView tvRespostasCorretas;
-    private int respostaCorreta = 2; // Número do botão correto
+    private int respostaCorreta = 3; // Número do botão correto
     private int respostasCorretas = 0;
 
 

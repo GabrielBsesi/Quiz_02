@@ -15,7 +15,7 @@ public class Quest7Activity extends AppCompatActivity {
 
     private Button button1, button2, button3, button4, backButton, nextButton;
     private TextView tvRespostasCorretas;
-    private int respostaCorreta = 2; // Número do botão correto
+    private int respostaCorreta = 4; // Número do botão correto
     private int respostasCorretas = 0;
 
 
@@ -136,14 +136,14 @@ public class Quest7Activity extends AppCompatActivity {
 
     // Método para ir para a próxima tela e passar os dados dos contadores
     private void voltarTela() {
-        Intent intent = new Intent(this, Quest1Activity.class);
+        Intent intent = new Intent(this, Quest6Activity.class);
         //intent.putExtra("respostasCorretas", respostasCorretas);
         QuizDBUtil.menosContador(getApplicationContext());
         startActivity(intent);
     }
 
     private void ProximaTela() {
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, Quest8Activity.class);
         //intent.putExtra("respostasCorretas", respostasCorretas);
         startActivity(intent);
     }

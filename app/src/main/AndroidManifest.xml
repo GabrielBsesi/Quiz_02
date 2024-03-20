@@ -30,6 +30,38 @@
             android:name=".Quest2Activity">
 
         </activity>
+        <activity
+            android:name=".Quest3Activity">
+
+        </activity>
+        <activity
+            android:name=".Quest4Activity">
+
+        </activity>
+        <activity
+            android:name=".Quest5Activity">
+
+        </activity>
+        <activity
+            android:name=".Quest6Activity">
+
+        </activity>
+        <activity
+            android:name=".Quest7Activity">
+
+        </activity>
+        <activity
+            android:name=".Quest8Activity">
+
+        </activity>
+        <activity
+            android:name=".Quest9Activity">
+
+        </activity>
+        <activity
+            android:name=".Quest10Activity">
+
+        </activity>
     </application>
 
 </manifest>

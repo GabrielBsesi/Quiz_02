@@ -3,6 +3,7 @@ package com.example.quiz_02;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -143,6 +144,7 @@ public class Quest2Activity extends AppCompatActivity {
     }
 
     private void ProximaTela() {
+        Log.d("MeuApp", "Botão 'Próxima Tela' clicado");
         Intent intent = new Intent(this, Quest3Activity.class);
         //intent.putExtra("respostasCorretas", respostasCorretas);
         startActivity(intent);
