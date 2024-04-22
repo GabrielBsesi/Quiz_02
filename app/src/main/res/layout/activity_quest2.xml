@@ -55,7 +55,7 @@
         android:layout_height="261dp"
         android:importantForAccessibility="no"
         android:paddingBottom="10dp"
-        app:srcCompat="@drawable/simgpu" />
+        app:srcCompat="@drawable/disco" />
 
     <androidx.gridlayout.widget.GridLayout
         android:layout_width="match_parent"
@@ -81,7 +81,7 @@
             android:id="@+id/button3"
             android:layout_width="150dp"
             android:layout_height="60dp"
-            android:text="@string/Placamae"
+            android:text="@string/Placaderede"
             app:layout_column="0"
             app:layout_row="2" />
 
@@ -89,7 +89,7 @@
             android:id="@+id/button4"
             android:layout_width="150dp"
             android:layout_height="60dp"
-            android:text="@string/CPU"
+            android:text="@string/Placadevídeo"
             app:layout_column="2"
             app:layout_row="2" />
     </androidx.gridlayout.widget.GridLayout>

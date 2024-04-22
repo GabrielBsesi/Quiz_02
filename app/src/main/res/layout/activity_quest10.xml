@@ -55,7 +55,7 @@
         android:layout_height="261dp"
         android:importantForAccessibility="no"
         android:paddingBottom="10dp"
-        app:srcCompat="@drawable/simgpu" />
+        app:srcCompat="@drawable/dvd" />
 
     <androidx.gridlayout.widget.GridLayout
         android:layout_width="match_parent"

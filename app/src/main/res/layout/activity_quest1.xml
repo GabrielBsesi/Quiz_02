@@ -51,11 +51,11 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="261dp"
         android:importantForAccessibility="no"
         android:paddingBottom="10dp"
-        app:srcCompat="@drawable/simgpu" />
+        app:srcCompat="@drawable/cpu" />
 
     <androidx.gridlayout.widget.GridLayout
         android:layout_width="match_parent"
@@ -65,7 +65,7 @@
             android:id="@+id/button1"
             android:layout_width="150dp"
             android:layout_height="60dp"
-            android:text="@string/RAM"
+            android:text="@string/Leitoroptico"
             app:layout_column="0"
             app:layout_row="0" />
 
@@ -89,7 +89,7 @@
             android:id="@+id/button4"
             android:layout_width="150dp"
             android:layout_height="60dp"
-            android:text="@string/Disco"
+            android:text="@string/Placaderede"
             app:layout_column="2"
             app:layout_row="2" />
 
