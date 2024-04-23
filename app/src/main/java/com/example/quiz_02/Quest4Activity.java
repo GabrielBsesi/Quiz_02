@@ -76,13 +76,6 @@ public class Quest4Activity extends AppCompatActivity {
         });
 
 
-        Button backButton = findViewById(R.id.backButton);
-        backButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                voltarTela();
-            }
-        });
 
 
         Button nextButton = findViewById(R.id.nextButton);
@@ -135,12 +128,7 @@ public class Quest4Activity extends AppCompatActivity {
     }
 
     // Método para ir para a próxima tela e passar os dados dos contadores
-    private void voltarTela() {
-        Intent intent = new Intent(this, Quest3Activity.class);
-        //intent.putExtra("respostasCorretas", respostasCorretas);
-        QuizDBUtil.menosContador(getApplicationContext());
-        startActivity(intent);
-    }
+
 
     private void ProximaTela() {
         Intent intent = new Intent(this, Quest5Activity.class);

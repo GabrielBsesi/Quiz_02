@@ -10,7 +10,7 @@
     <string name="tvRespostasCorretas">Acertou: 0/10</string>
     <string name="acertou_contador">Acertou: 0</string>
 
-    <string name="quest_geral_back">Voltar</string>
+    <string name="quest_geral_back">Sair</string>
     <string name="quest_geral_next">Próximo</string>
 
     <string name="quest1_per">1) Qual componente é responsável por processar os dados em um computador?</string>
