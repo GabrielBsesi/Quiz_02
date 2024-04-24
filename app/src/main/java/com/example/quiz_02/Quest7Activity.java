@@ -75,7 +75,13 @@ public class Quest7Activity extends AppCompatActivity {
             }
         });
 
-
+        Button backButton = findViewById(R.id.homeButton);
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                voltarTela();
+            }
+        });
 
 
         Button nextButton = findViewById(R.id.nextButton);
@@ -126,7 +132,13 @@ public class Quest7Activity extends AppCompatActivity {
         button3.setEnabled(false);
         button4.setEnabled(false);
     }
-
+    private void voltarTela() {
+        Intent intent = new Intent(this, MainActivity.class);
+        //intent.putExtra("respostasCorretas", respostasCorretas);
+        //QuizDBUtil.menosContador(getApplicationContext());
+        QuizDBUtil.resetContador(getApplicationContext());
+        startActivity(intent);
+    }
 
     private void ProximaTela() {
         Intent intent = new Intent(this, Quest8Activity.class);

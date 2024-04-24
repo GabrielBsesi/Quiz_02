@@ -76,6 +76,14 @@ public class Quest3Activity extends AppCompatActivity {
         });
 
 
+        Button backButton = findViewById(R.id.homeButton);
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                voltarTela();
+            }
+        });
+
         Button nextButton = findViewById(R.id.nextButton);
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -127,6 +135,13 @@ public class Quest3Activity extends AppCompatActivity {
 
     // Método para ir para a próxima tela e passar os dados dos contadores
 
+    private void voltarTela() {
+        Intent intent = new Intent(this, MainActivity.class);
+        //intent.putExtra("respostasCorretas", respostasCorretas);
+        //QuizDBUtil.menosContador(getApplicationContext());
+        QuizDBUtil.resetContador(getApplicationContext());
+        startActivity(intent);
+    }
     private void ProximaTela() {
         Intent intent = new Intent(this, Quest4Activity.class);
         //intent.putExtra("respostasCorretas", respostasCorretas);

@@ -13,7 +13,7 @@ import com.example.quiz_02.db.QuizDBUtil;
 
 public class Quest1Activity extends AppCompatActivity {
 
-    private Button button1, button2, button3, button4, backButton, nextButton;
+    private Button button1, button2, button3, button4, homeButton, nextButton;
     private TextView tvRespostasCorretas;
     private int respostaCorreta = 3; // Número do botão correto
 
@@ -73,6 +73,14 @@ public class Quest1Activity extends AppCompatActivity {
         });
 
 
+        Button backButton = findViewById(R.id.homeButton);
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                voltarTela();
+            }
+        });
+
 
 
         Button nextButton = findViewById(R.id.nextButton);
@@ -129,6 +137,13 @@ public class Quest1Activity extends AppCompatActivity {
 
     // Método para ir para a próxima tela e passar os dados dos contadores
 
+    private void voltarTela() {
+        Intent intent = new Intent(this, MainActivity.class);
+        //intent.putExtra("respostasCorretas", respostasCorretas);
+        //QuizDBUtil.menosContador(getApplicationContext());
+        QuizDBUtil.resetContador(getApplicationContext());
+        startActivity(intent);
+    }
 
     private void ProximaTela() {
         Intent intent = new Intent(this, Quest2Activity.class);
